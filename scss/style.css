@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background: #4A2B33;
+}
+header .container {
+  max-width: 1328px;
+  margin: auto;
+}
+header .container ul {
+  display: flex;
+}
+header .container ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header .container nav ul li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  list-style: none;
+  color: #D27487;
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  left: calc(43% - 40px);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.section_one {
+  background: #4A2B33;
+  padding-bottom: 36px;
+}
+
+.container {
+  max-width: 1328px;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+}
+
+.about_us {
+  background: #F5F5F5;
+  padding-bottom: 244px;
+  padding-top: 220px;
+}
+
+.container {
+  max-width: 1328px;
+  margin: auto;
+}
+
+.text {
+  margin-left: 285px;
+  margin-right: 286px;
+  max-width: 869px;
+}
+.text h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #222222;
+}
+.text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #222222;
+}
+
+.menu {
+  background: #E9E9E3;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1328px;
+  margin: auto;
+  display: flex;
+}
+
+.aside {
+  max-width: 558px;
+}
+.aside h4 {
+  ont-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6F6F64;
+  margin-bottom: 17px;
+}
+.aside p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #6F6F64;
+}
+
+.link_menu {
+  padding-top: 74px;
+  max-width: 531px;
+}
+.link_menu ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.food_menu {
+  padding: 17px 223px 17px 223px;
+  background: #6F6F64;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  margin-bottom: 12px;
+}
+.food_menu a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.drinks_menu {
+  padding: 17px 219px 17px 219px;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  margin-bottom: 12px;
+}
+.drinks_menu a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #6F6F64;
+}
+
+.takeaway_menu {
+  padding: 17px 203px 17px 204px;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  margin-bottom: 12px;
+}
+.takeaway_menu a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #6F6F64;
+}
+
+.img_menu {
+  padding-left: 133px;
+}
+
+.hours_blog {
+  background: #AA9E54;
+  padding-bottom: 135px;
+  padding-top: 120px;
+}
+
+.container {
+  max-width: 1328px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.hours_blog article h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.hours_blog article p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hours {
+  margin-right: 176px;
+  margin-left: 242px;
+}
+
+.location {
+  margin-left: 89px;
+}
+
+.mondays {
+  margin-right: 35px;
+}
+
+.container_content {
+  max-width: 1328px;
+  margin: auto;
+  padding-top: 152px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.images_first {
+  display: grid;
+}
+.images_first .img {
+  width: 100%;
+}
+.images_first article {
+  margin-bottom: 40px;
+}
+
+.pic {
+  margin-left: 40px;
+}
+.pic .img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
